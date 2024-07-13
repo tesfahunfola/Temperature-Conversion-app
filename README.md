@@ -1,11 +1,65 @@
-# flutter-temperature
 
-### In this tutorial we build out a flutter temperature conversion application using some of the features we haven't looked at yet.  This includes various methods of input and a different way of writing the widget tree. 
+# Temperature Conversion App
 
-### To build this application, you will need the latest version of the flutter preview build and Dart 2.0 SDK for more information, [click here](https://github.com/flutter/flutter/wiki/Trying-the-preview-of-Dart-2-in-Flutter)
-### Check out the Youtube Tutorial for this [Dart Flutter Program](https://youtu.be/-Bh_U5u_1Lo). Here is our [Youtube Channel](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) Subscribe for more content.
 
-### Check out our blog at [tensor-programming.com](http://tensor-programming.com/).
 
-### Our [Twitter](https://twitter.com/TensorProgram), our [facebook](https://www.facebook.com/Tensor-Programming-1197847143611799/) and our [Steemit](https://steemit.com/@tensor).
-# Temperature-Conversion-app
+
+
+
+This Android application allows users to convert temperatures between Fahrenheit and Celsius. It provides a straightforward interface for entering a temperature value, selecting a conversion type, and displaying the converted result. The app also maintains a history of conversions for reference.
+
+
+## Features
+
+
+- Conversion Types: Users can choose between Fahrenheit-to-Celsius or Celsius-to-Fahrenheit conversions.
+- Precision: Converted temperatures are displayed with accuracy to two decimal places.
+- History: All conversion operations are logged in a scrollable history section, with the most recent conversions appearing at the top.
+- Orientation Support: The app seamlessly adjusts its layout and functionality between portrait and landscape orientations
+
+
+
+## Usage
+
+
+
+- Select Conversion Type: Choose either Fahrenheit-to-Celsius or Celsius-to-Fahrenheit.
+- Enter Temperature: Input the initial temperature value.
+- Convert: Press the 'Convert' button to calculate and display the converted temperature.
+- View History: Scroll through the history section to see previous conversion operations.
+
+
+## Formulas Used
+
+```javascript
+Fahrenheit to Celsius: *C = (*F - 32) X 5/9
+
+Celsius to Fahrenheit: *F = *C x 9/5 + 32
+```
+
+
+## Installation
+
+To install the app on your device:
+
+```bash
+  Clone this repository: git clone https://github.com/tesfahunfola/temperature-conversion-app.git
+```
+```bash
+ Open the project in Android Studio.
+```
+```bash
+ Build and run the app on your device/emulator.
+```
+    
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Support
+
+For questions or feedback, please contact t.zanafola@alustudent.com.
+
+
+
