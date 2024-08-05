@@ -17,7 +17,11 @@ This Android application allows users to convert temperatures between Fahrenheit
 - History: All conversion operations are logged in a scrollable history section, with the most recent conversions appearing at the top.
 - Orientation Support: The app seamlessly adjusts its layout and functionality between portrait and landscape orientations
 
+## Demo Video
 
+Check out the demo video of the temperature conversion app on Loom:
+
+[Watch the demo video on Loom](https://www.loom.com/share/440b53060a0a4917b16e9f2be1d5d424?sid=3a0a28a3-e9da-4c08-8077-bc7131ef5979)
 
 ## Usage
 
